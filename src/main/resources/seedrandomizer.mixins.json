@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.alcatrazescapee.seedrandomizer.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "LevelStemMixin",
+    "WorldGenSettingsMixin",
+    "accessor.LevelStemAccessor"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "seedrandomizer.refmap.json"
+}

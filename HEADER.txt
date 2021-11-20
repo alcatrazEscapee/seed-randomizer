@@ -1,0 +1,2 @@
+Part of the Seed Randomizer mod.
+Licensed under MIT. See the project LICENSE.txt for details.

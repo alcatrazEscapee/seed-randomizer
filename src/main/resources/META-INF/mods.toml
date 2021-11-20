@@ -1,0 +1,27 @@
+
+# Loader Metadata
+modLoader = "javafml"
+loaderVersion = "[37,)"
+issueTrackerURL = "https://github.com/alcatrazEscapee/seed-randomizer/issues" # optional
+license="MIT"
+
+# Mods
+[[mods]]
+    modId="seedrandomizer"
+    version="${file.jarVersion}"
+    displayName="Seed Randomizer"
+    authors="AlcatrazEscapee"
+    description='''Seed Randomizer'''
+
+# Dependencies
+[[dependencies.seedrandomizer]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[37.0.0,)"
+    ordering = "AFTER"
+
+[[dependencies.seedrandomizer]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.17.1,)"
+    ordering = "NONE"
